@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notatnik</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="sidebar">
+        <label for="wielkosc">Font Size:</label>
+        <input type="number" name="wielkosc" id="wielkosc" value="3">
+        <button type="button" onclick="normal()">Reset Text</button>
+        <button type="button" onclick="normal1()">Reset Effects</button>
+        <button type="button" onclick="resetfont()">Reset Font</button>
+        <button type="button" onclick="resetsize()">Reset Size</button>
+        <button type="button" onclick="resetbackground()" >Reset Background</button>
+        <button type="button" onclick="bold()">Bold</button>
+        <button type="button" onclick="italic()">Italic</button>
+        <input type="color" id="kolor" value="#ffffff">
+        <button type="button" onclick="greenscreen()" >Green Screen</button>
+        <button type="button" onclick="bluescreen()" >Blue Screen</button>
+        <button type="button" value="save" id="save">Save as txt</button>
+    </div>
+    <h1 id="notepad">Notepad made by Konrad</h1>
+    <div id="writing_area">
+        <textarea id="notatnik" rows="33 " cols="103"></textarea>
+    </div>
+    <div id="downbar">
+        <button type="button" onclick="impact()" id="przycisk1">Impact</button>
+        <button type="button" onclick="comicsans()" id="przycisk">Comic</button>
+        <button type="button" onclick="times()" id="przycisk">Times</button>
+        <button type="button" onclick="outwrite()" id="przycisk">Outwrite</button>
+        <button type="button" onclick="pixel()" id="przycisk">Pixel</button>
+        <button type="button" onclick="chicory()" id="przycisk">Chicory</button>
+        <button type="button" onclick="mario()" id="przycisk">Mario</button>
+        <button type="button" onclick="pokemon()" id="przycisk">Pokemon</button>
+        <button type="button" onclick="tasm()" id="przycisk">Tasm</button>
+        <button type="button" onclick="snow()" id="przycisk">Snow</button>
+        <button type="button" onclick="wob()" id="przycisk">WoB</button>
+        <button type="button" onclick="doctorpunk()" id="przycisk">DoctorP.</button>
+        <button type="button" onclick="floral()" id="przycisk">Floral</button>
+        <button type="button" onclick="harry()" id="przycisk">Harry P.</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
